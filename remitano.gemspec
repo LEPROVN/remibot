@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.name = "remitano"
   spec.version = "0.0.1"
 
-  spec.authors = ["Phuong Nguyen"]
+  spec.authors = ["hieu.tran"]
   spec.description = "Ruby API for use with remitano."
-  spec.email = "phuongnd08@gmail.com"
+  spec.email = "hieubkit05@gmail.com"
   spec.files = `git ls-files -z`.split("\x0")
   spec.homepage = "http://github.com/remitano/remitano-ruby"
   spec.licenses = ["MIT"]
