@@ -21,8 +21,8 @@ Jeweler::Tasks.new do |gem|
   gem.license = "MIT"
   gem.summary = %Q{Remitano Ruby API}
   gem.description = %Q{Ruby API for use with Remitano.}
-  gem.email = "phuongnd08@gmail.com"
-  gem.authors = ["Phuong Gia Su"]
+  gem.email = "hieubkit05@gmail.com"
+  gem.authors = ["Tran Trung Hieu"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

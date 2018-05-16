@@ -38,6 +38,7 @@ module Remitano
       }
       req = RestClient::Request.new(options)
       req.headers['Content-Type'] = 'application/json'
+      #req.headers['Cookie'] = '__cfduid=d9bfd4bdd4a695aec90581dff431960781526269674; AWSALB=7LL68WGIjxMLxTpYlZAzWtPnd9XvI9f4UGVEbLvK86LChLwLuZPIjDGGizRtLxKEOWWQIbVx1ZCTrUacPWERNsU9kk69jJ8liiySSFukrThN7ChuLJhBz6EuVY9xiJh5jzTdsOw1F9lO8j2YFokn0oZvXc+t4dR1yGixIOEFguDE3XVsAJUbQQaAUP0oCg==; _frontend_session=25b4b1fff0f2f539a2d94aa25905c67c; _ga=GA1.2.355762340.1526269688; _gid=GA1.2.16656784.1526269688; intercom-lou-e1lzm5au=1'
       new(req)
     end
 
